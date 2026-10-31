@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: farmer-build-library
+    runtime: static
+    buildCommand: 'true'
+    staticPublishPath: ./dist
+    headers:
+      - path: /downloads/*
+        name: Content-Disposition
+        value: attachment

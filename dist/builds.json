@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-30",
+  "files": [
+    {
+      "name": "The-Farmer-Was-Replaced-Mac.dmg",
+      "bytes": 129356694,
+      "sha256": "4b25a59fc4dab663ad0f1e810fae717deca2be10164c70d5f23a843886a28606"
+    },
+    {
+      "name": "The-Farmer-Was-Replaced-Windows.zip",
+      "bytes": 107438259,
+      "sha256": "c2fd58b763f05259fa81d5740d3dee439a12b024372fc2f450711f95faa6fa5b"
+    }
+  ]
+}
