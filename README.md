@@ -24,3 +24,6 @@ This repository is intended solely for **non-commercial, educational, and inform
 If you are the copyright holder or a legal representative of Timon Herzog or Metaroot and have queries, concerns, or take-down requests regarding the materials hosted in this repository, please open an Issue or contact the repository administrator directly for prompt removal.
 
 
+
+## October 31 local-progress build
+Optional Steam stats, achievements synchronization, rich presence, leaderboard networking, player counts, Steam language lookup and store overlay requests are disabled. Local progress and gameplay rewards remain. Steam startup checks are unchanged. Music and sound effects remain bundled. Windows runtime remains untested.
