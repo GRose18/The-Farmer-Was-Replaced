@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: farmer-private-library
+    runtime: node
+    plan: free
+    buildCommand: 'true'
+    startCommand: node server.mjs
+    healthCheckPath: /healthz
+    autoDeployTrigger: commit
+    envVars:
+      - key: NODE_VERSION
+        value: '22'
+      - key: SITE_USER
+        value: owner
+      - key: SITE_PASSWORD
+        sync: false

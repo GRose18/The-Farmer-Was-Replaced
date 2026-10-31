@@ -27,3 +27,8 @@ If you are the copyright holder or a legal representative of Timon Herzog or Met
 
 ## October 31 local-progress build
 Optional Steam stats, achievements synchronization, rich presence, leaderboard networking, player counts, Steam language lookup and store overlay requests are disabled. Local progress and gameplay rewards remain. Steam startup checks are unchanged. Music and sound effects remain bundled. Windows runtime remains untested.
+
+## Private hosting
+The original public static site is suspended. Deploy `render-private.yaml` as a new Blueprint from the connected private repository. Set SITE_PASSWORD in Render, never Git. Username defaults to owner. All page, image and video requests require HTTP Basic authentication; only /healthz is public. Missing credentials fail closed. GitHub Release downloads additionally require GitHub sign-in with repository access. Commit auto-deploy is configured.
+
+The latest private offline packages are in release private-offline-2026-10-31. Mac menu rendering checked; Windows runtime untested.
